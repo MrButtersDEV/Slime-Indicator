@@ -1,0 +1,15 @@
+name: SlimeIndicator
+version: ${project.version}
+main: dev.mrbutters.me.slimeindicator.SlimeIndicator
+api-version: 1.17
+prefix: SlimeIndicator
+authors: [ BUTTERFIELD8 ]
+description: Checks if your in a slime chunk!
+website: discord.com
+commands:
+  slimechunkcheck:
+    description: Checks if the chunk your in is a slime chunk!
+    aliases:
+      - chunkcheck
+      - checkslimechunk
+      - isslime

@@ -1,0 +1,37 @@
+#############################################################################################
+#                                                                                           #
+#                ░░░░░░░░░░                                                                 #
+#            ░░░░        ░░░░░░                                                             #
+#          ░░                  ░░                                                           #
+#        ░░                    ░░░░                                                         #
+#      ░░                      ░░░░░░                 S L I M E                             #
+#      ░░                        ░░░░                     I N D I C A T O R                 #
+#    ░░                ░░    ░░  ░░░░░░                                                     #
+#    ░░                ██░░  ██    ░░░░                     [config.yml]                    #
+#    ░░                ██░░  ██    ░░░░                                                     #
+#    ░░            ░░            ░░░░░░                                                     #
+#    ░░░░░░                      ░░░░░░                                                     #
+#      ░░░░░░                  ░░░░░░                                                       #
+#      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░                                                       #
+#          ░░░░░░░░░░░░░░░░░░░░░░                                                           #
+#                                                                                           #
+#############################################################################################
+# Sounds: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html                    #
+# Discord: https://discord.gg/knt6J6BFDA                                                    #
+#############################################################################################
+
+# If enabled players will need "slimeindicator.command" set to true to use the main command!
+requirePerms: false
+
+# Should a sound be played when a player identifies a slime chunk?
+doSound: true
+
+# If enabled above what sound should be played?
+soundSettings:
+  sound: ENTITY_SLIME_SQUISH
+  vol: 1
+  pitch: 1
+
+# Action Bar message - Supports Hex Colors & Color Codes [Hex: &#000000]
+isSlimeChunkActionBar: "&#4D993B[&#8AD480Slime Chunk&#4D993B]"
+isNotSlimeChunkActionBar: "&#4D993B[&#22431ANormal Chunk&#4D993B]"
